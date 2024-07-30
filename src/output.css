@@ -610,6 +610,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-mt-2 {
+  margin-top: 0.5rem;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -638,8 +642,20 @@ video {
   justify-content: center;
 }
 
+.tw-justify-between {
+  justify-content: space-between;
+}
+
+.tw-rounded {
+  border-radius: 0.25rem;
+}
+
 .tw-rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.tw-rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .tw-border-0 {
@@ -648,6 +664,10 @@ video {
 
 .tw-border-2 {
   border-width: 2px;
+}
+
+.tw-border-solid {
+  border-style: solid;
 }
 
 .tw-border-blue-700 {
@@ -674,6 +694,10 @@ video {
      object-position: center;
 }
 
+.tw-p-5 {
+  padding: 1.25rem;
+}
+
 .tw-px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -691,6 +715,10 @@ video {
 
 .tw-pt-10 {
   padding-top: 2.5rem;
+}
+
+.tw-pt-16 {
+  padding-top: 4rem;
 }
 
 .tw-text-center {
@@ -721,13 +749,12 @@ video {
   font-weight: 700;
 }
 
-.tw-leading-relaxed {
-  line-height: 1.625;
+.tw-font-extrabold {
+  font-weight: 800;
 }
 
-.tw-text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+.tw-leading-relaxed {
+  line-height: 1.625;
 }
 
 .tw-text-blue-800 {
@@ -752,6 +779,10 @@ video {
 
 .tw-duration-100 {
   transition-duration: 100ms;
+}
+
+.tw-duration-300 {
+  transition-duration: 300ms;
 }
 
 .mb-lg-0{
@@ -809,9 +840,81 @@ svg{
   }
 }
 
+.section-2{
+  background: url(https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg) ,  rgba(0, 0, 0, .1  );
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
+  background-color: rgba(var(--bsb-overlay-bg-color), var(--bsb-overlay-opacity));
+  bottom: 0;
+  position: relative;
+  padding-top: .2vh;
+  background-attachment: fixed;
+}
+
+.text-text{
+  background: linear-gradient( 120deg , #e4a0a1, #e4a0a1 );
+  background-position: 0 80%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  color: #a30000;
+  font-size: larger;
+}
+
+.join-us{
+  background-color: #a30000;
+  color: white;
+}
+
+.section2{
+  background: url("https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg") rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 83vh;
+  background-attachment: fixed;
+}
+
+@media (max-width:500px) {
+  .clas-res{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:991px) {
+  .text-px{
+    text-align: center;
+  }
+}
+
+.width{
+  width: 90%;
+}
+
+.hover\:tw-border-solid:hover {
+  border-style: solid;
+}
+
+.hover\:tw-border-red-800:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(153 27 27 / var(--tw-border-opacity));
+}
+
 .hover\:tw-bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.hover\:tw-bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:tw-text-red-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
 .hover\:tw-text-white:hover {
@@ -826,6 +929,12 @@ svg{
 .focus\:tw-outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:tw-block {
+    display: block;
+  }
 }
 
 @media (min-width: 640px) {

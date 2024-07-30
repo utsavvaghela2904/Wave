@@ -47,3 +47,50 @@ svg{
         flex-direction: column;
     }
 }
+.section-2{
+    background: url(https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg) ,  rgba(0, 0, 0, .1  );
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(var(--bsb-overlay-bg-color), var(--bsb-overlay-opacity));
+    bottom: 0;
+    position: relative;
+    padding-top: .2vh;
+    background-attachment: fixed;
+}
+.text-text{
+    background: linear-gradient( 120deg , #e4a0a1, #e4a0a1 );
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    color: #a30000;
+    font-size: larger;
+}
+.join-us{
+    background-color: #a30000;
+    color: white;
+}
+.section2{
+    background: url("https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg") rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 83vh;
+    background-attachment: fixed;
+}
+
+@media (max-width:500px) {
+    .clas-res{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:991px) {
+    .text-px{
+        text-align: center;
+    }
+}
+.width{
+    width: 90%;
+}
