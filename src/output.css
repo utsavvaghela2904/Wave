@@ -588,6 +588,10 @@ video {
   }
 }
 
+.tw-fixed {
+  position: fixed;
+}
+
 .tw-absolute {
   position: absolute;
 }
@@ -648,6 +652,10 @@ video {
 
 .tw-w-full {
   width: 100%;
+}
+
+.tw-w-screen {
+  width: 100vw;
 }
 
 .tw-flex-col {
@@ -741,12 +749,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.tw-pt-10 {
-  padding-top: 2.5rem;
-}
-
 .tw-pt-16 {
   padding-top: 4rem;
+}
+
+.tw-pt-20 {
+  padding-top: 5rem;
 }
 
 .tw-text-center {
@@ -977,33 +985,6 @@ svg{
   z-index: 999;
 }
 
-.custom-width-div{
-  max-width: 1300px !important;
-}
-
-.div-img{
-  transform:scale(1.3);
-  transition: all 0.5s;
-}
-
-.div-main:hover .div-img{
-  transform:scale(1.1);
-}
-
-.div-sub{
-  opacity: 0;
-  transition: all 0.5s;
-  color:white;
-  cursor: pointer;
-}
-
-.div-main:hover .div-sub{
-  opacity: 1;
-  background: rgba(0,0,0,0.448);
-}
-
-/* gallary */
-
 .right-001{
   opacity: 0;
   transition: .5s;
@@ -1066,10 +1047,6 @@ svg{
 }
 
 @media not all and (min-width: 768px) {
-  .max-md\:tw-m-auto {
-    margin: auto;
-  }
-
   .max-md\:tw-block {
     display: block;
   }
